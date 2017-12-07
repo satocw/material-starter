@@ -9,12 +9,14 @@ import { NavbarModule } from './shared/navbar';
 
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './pages/homepage';
+import { SecondpageComponent } from './pages/secondpage';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent
+    HomepageComponent,
+    SecondpageComponent
   ],
   imports: [
     BrowserAnimationsModule,
